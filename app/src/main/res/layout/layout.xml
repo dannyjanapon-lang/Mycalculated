@@ -4,4 +4,54 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
+    <EditText
+        android:id="@+id/number1_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Enter First Number"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/number2_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Enter Second Number"
+        android:inputType="numberDecimal"/>
+
+
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+"/>
+
+    <Button
+        android:id="@+id/subtract_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/multiply_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*" />
+
+    <Button
+        android:id="@+id/divide_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="/" />
+
+    <TextView
+        android:id="@+id/result_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result will be shown here"
+        android:textSize="24sp"
+        android:textColor="#2C0C9E"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+
 </LinearLayout>
